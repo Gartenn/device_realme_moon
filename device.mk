@@ -48,9 +48,6 @@ PRODUCT_BUILD_SUPER_PARTITION := false
 # Extra VNDK Versions
 PRODUCT_EXTRA_VNDK_VERSIONS := 30
 
-# Audio
-PRODUCT_PACKAGES += \
-    audio.a2dp.default
 
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/audio/audio_policy_configuration.xml:system/etc/audio_policy_configuration.xml \
