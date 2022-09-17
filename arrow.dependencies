@@ -1,0 +1,14 @@
+[
+    {
+        "repository": "vendor_realme_moon",
+        "target_path": "vendor/realme/moon"
+    },
+    {
+        "repository": "vendor_realme_moon-ims",
+        "target_path": "vendor/realme/moon-ims"
+    },
+    {
+        "repository": "kernel_realme_moon",
+        "target_path": "kernel/realme/moon"
+    }
+]
