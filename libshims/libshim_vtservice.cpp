@@ -24,7 +24,7 @@ void _ZN7android10AudioTrackC1E19audio_stream_type_tj14audio_format_tjj20audio_o
         float maxRequiredSpeed,
         audio_port_handle_t selectedDeviceId) {
     const AttributionSourceState& attributionSource = AttributionSourceState();
-    new android::AudioTrack(streamType, sampleRate, format, channelMask, frameCount, flags, cbf,
+    new android::AudioTrack;(streamType, sampleRate, format, channelMask, frameCount, flags, cbf,
                             user, notificationFrames, sessionId, transferType, offloadInfo, attributionSource,
                             pAttributes, doNotReconnect, maxRequiredSpeed, selectedDeviceId);
         }
