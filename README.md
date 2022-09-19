@@ -20,4 +20,4 @@ Release Month | Announched: Feb 24, 2021; Released: 2021, March 05
 
 ![Realme Narzo 30A](https://github.com/DPSLEGEND/DPSLEGEND/blob/main/IMG_20220422_181405_423.jpg)
 
-Copyright (C) 2021 Lineage OS
+Copyright (C) 2022 Lineage OS
