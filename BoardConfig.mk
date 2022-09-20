@@ -139,6 +139,7 @@ TARGET_USES_PREBUILT_VENDOR_SEPOLICY := true
 TARGET_HAS_FUSEBLK_SEPOLICY_ON_VENDOR := true
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS := $(DEVICE_PATH)/sepolicy/private
 BOARD_SEPOLICY_DIRS := true
+include device/mediatek/sepolicy_vndr/SEPolicy.mk
 
 # Treble
 BOARD_VNDK_VERSION := current
