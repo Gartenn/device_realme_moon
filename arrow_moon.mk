@@ -32,8 +32,7 @@ PRODUCT_MANUFACTURER := realme
 TARGET_BOOT_ANIMATION_RES := 720
 
 # Build info
-BUILD_FINGERPRINT := "google/coral/coral:12/SQ3A.220705.003.A1/8672226:user/release-keys"
-PRODUCT_BUILD_PROP_OVERRIDES += \
+BUILD_FINGERPRINT := "google/coral/coral:13/TP1A.220905.004/8927612:user/release-keys"
     TARGET_DEVICE=moon \
     PRODUCT_NAME=moon \
     PRIVATE_BUILD_DESC="sys_oplus_mssi_64_cn-user-11-RP1A.200720.011-1607914664672-release-keys"
