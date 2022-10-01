@@ -50,3 +50,6 @@ lib64/libvcodec_cap.so
 lib64/libvcodec_capenc.so
 vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so
 vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
+
+# add lib64
+vendor/lib64/vendor.oplus.hardware.commondcs@1.0.so
