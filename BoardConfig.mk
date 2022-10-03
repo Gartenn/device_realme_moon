@@ -134,7 +134,7 @@ TARGET_USERIMAGES_USE_F2FS := true
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 
 # Sepolicy
-include device/qcom/sepolicy_vndr/SEPolicy.mk
+include device/mediatek/sepolicy_vndr/SEPolicy.mk
 TARGET_USES_PREBUILT_VENDOR_SEPOLICY := true
 TARGET_HAS_FUSEBLK_SEPOLICY_ON_VENDOR := true
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS := $(DEVICE_PATH)/sepolicy/private
