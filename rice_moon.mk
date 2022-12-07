@@ -42,3 +42,21 @@ PRODUCT_GMS_CLIENTID_BASE := android-realme
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
+
+# maintainer flag (one word only/no spacing)
+RICE_MAINTAINER := Garten
+
+# chipset flag (one word only/no spacing)
+RICE_CHIPSET := HelioG85
+
+# Sushi Bootanimation (only 720/1080p/1440 supported. if not defined, bootanimation is google bootanimation)
+SUSHI_BOOTANIMATION := 720
+
+# Graphene Camera
+TARGET_BUILD_GRAPHENEOS_CAMERA := true
+
+# disable/enable blur support, default is false
+TARGET_ENABLE_BLUR := true
+
+# Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
