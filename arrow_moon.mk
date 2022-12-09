@@ -32,7 +32,7 @@ PRODUCT_MANUFACTURER := realme
 TARGET_BOOT_ANIMATION_RES := 720
 
 # Build info
-BUILD_FINGERPRINT := "google/coral/coral:13/TP1A.221105.004/8927612:user/release-keys"
+BUILD_FINGERPRINT := "google/coral/coral:13/TP1A.221205.004/8927612:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=moon \
     PRODUCT_NAME=moon \
@@ -42,9 +42,3 @@ PRODUCT_GMS_CLIENTID_BASE := android-realme
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
-
-
-# chipset flag enclose var with "" if more than one
-# this will reflect on build/display version, a firmware package/zip name 
-# e.g. riceDroid-7.0-COMMUNITY-device-AOSP.zip - AOSP is the default package type, WITH_GMS will override the package type to PIXEL
-RICE_PACKAGE_TYPE := "VANILLA AOSP"
