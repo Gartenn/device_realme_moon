@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rice_moon.mk
+    $(LOCAL_DIR)/corvus_moon.mk
 
 COMMON_LUNCH_CHOICES := \
-    rice_moon-user \
-    rice_moon-userdebug \
-    rice_moon-eng
+    corvus_moon-user \
+    corvus_moon-userdebug \
+    corvus_moon-eng
