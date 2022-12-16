@@ -71,10 +71,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     GoogleCameraGo
 
-# Configstore
+# Disable Configstore
 PRODUCT_PACKAGES += \
-    android.hardware.configstore@1.0-service \
-    android.hardware.configstore@1.1-service
+    disable_configstore
 
 # DT2W
 PRODUCT_PACKAGES += \
