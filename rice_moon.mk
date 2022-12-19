@@ -24,7 +24,7 @@ $(call inherit-product, device/realme/moon/device.mk)
 $(call inherit-product, vendor/lineage/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_moon
+PRODUCT_NAME := rice_moon
 PRODUCT_DEVICE := moon
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := Realme Moon
