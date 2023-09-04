@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_moon.mk
+    $(LOCAL_DIR)/aosp_moon.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_moon-user \
-    derp_moon-userdebug \
-    derp_moon-eng
+    aosp_moon-user \
+    aosp_moon-userdebug \
+    aosp_moon-eng
