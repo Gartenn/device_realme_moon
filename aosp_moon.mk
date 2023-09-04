@@ -21,10 +21,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile
 $(call inherit-product, device/realme/moon/device.mk)
 # Inherit some rom sruff
-$(call inherit-product, vendor/derpfest/config/common.mk)
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := derp_moon
+PRODUCT_NAME := aosp_moon
 PRODUCT_DEVICE := moon
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := Realme Moon
@@ -43,4 +43,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-realme
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
 
-USE_LEGACY_BOOTANIMATION := true
+
