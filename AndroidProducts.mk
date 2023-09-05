@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_moon.mk
+    $(LOCAL_DIR)/lineage_moon.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_moon-user \
-    aosp_moon-userdebug \
-    aosp_moon-eng
+    lineage_moon-user \
+    lineage_moon-userdebug \
+    lineage_moon-eng
